@@ -14,6 +14,7 @@ How social sentiment influence stock / crypto market
 
 * [fetch.py](https://github.com/summerzhang423/sentiment_analysis/blob/main/fetch.py): Main script for fetching the data.
 * [fetch_util.py](https://github.com/summerzhang423/sentiment_analysis/blob/main/fetch_util.py): Implementations of the functions used in `fetch.py`.
+* [data/](https://github.com/summerzhang423/sentiment_analysis/tree/main/data): Directory for data files.
 
 ### How to fetch the data?
 
