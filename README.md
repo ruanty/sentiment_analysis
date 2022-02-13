@@ -36,6 +36,10 @@ since = None
 until = None
 ```
 
+### Why there's no `credential_pool` module?
+
+I chose to ignore this script because it is not smart to include secret keys in a public repo. So feel free to ask me for that or create your own `credential_pool` if you need.
+
 -------------
 sentiment code reference: https://towardsdatascience.com/step-by-step-twitter-sentiment-analysis-in-python-d6f650ade58d
 
