@@ -10,20 +10,22 @@ How social sentiment influence stock / crypto market
 - [ ] Implement `Crontab` function
 
 
-### Documentation
+### 🗃 Documentation
 
 * [fetch.py](https://github.com/summerzhang423/sentiment_analysis/blob/main/fetch.py): Main script for fetching the data.
 * [fetch_util.py](https://github.com/summerzhang423/sentiment_analysis/blob/main/fetch_util.py): Implementations of the functions used in `fetch.py`.
 * [data/](https://github.com/summerzhang423/sentiment_analysis/tree/main/data): Directory for data files.
 
-### How to fetch the data?
+### 🚀 FAQ
+
+#### How to fetch the data?
 
 ```bash
 $ python fetch.py 
 Successful wrote 500 records.
 ```
 
-### How to change the parameters for searching?
+#### How to change the parameters for searching?
 
 Modify the values of the following variables in `fetch.py`.
 
@@ -36,7 +38,7 @@ since = None
 until = None
 ```
 
-### Why there's no `credential_pool` module?
+#### Why there's no `credential_pool` module?
 
 I chose to ignore this script because it is not smart to include secret keys in a public repo. So feel free to ask me for that or create your own `credential_pool` if you need.
 
