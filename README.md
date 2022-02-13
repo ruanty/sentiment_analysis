@@ -7,14 +7,18 @@ How social sentiment influence stock / crypto market
 
 - [ ] ~~Twitter academic account~~ 
 - [x] Implement data fetching function
+  - `fetch.py` can only be used to retrieve CSV files, which may not be suitable for MongoDB.
+  - `retrieve_tweets_with_details.py` can be used to pull JSON data but requires modification.
 - [ ] Implement `Crontab` function
 
 
 ### 🗃 Documentation
 
+* [social_sentiment_analysis.ipynb](https://github.com/summerzhang423/sentiment_analysis/blob/main/social_sentiment_analysis.ipynb): Initial testing.
 * [fetch.py](https://github.com/summerzhang423/sentiment_analysis/blob/main/fetch.py): Main script for fetching the data.
 * [fetch_util.py](https://github.com/summerzhang423/sentiment_analysis/blob/main/fetch_util.py): Implementations of the functions used in `fetch.py`.
 * [data/](https://github.com/summerzhang423/sentiment_analysis/tree/main/data): Directory for data files.
+* [retrieve_tweets_with_details.py](https://github.com/summerzhang423/sentiment_analysis/blob/main/retrieve_tweets_with_details.py): Diane's script for pulling JSON data.
 
 ### 🚀 FAQ
 
