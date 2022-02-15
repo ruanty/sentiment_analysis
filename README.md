@@ -20,7 +20,7 @@ How social sentiment influence stock / crypto market
 * [data/](https://github.com/summerzhang423/sentiment_analysis/tree/main/data): Directory for data files.
 * [retrieve_tweets_with_details.py](https://github.com/summerzhang423/sentiment_analysis/blob/main/retrieve_tweets_with_details.py): Diane's script for pulling JSON data.
 
-### 🚀 FAQ
+### 🚀 FAQ for `fetch.py`
 
 #### How to fetch the data?
 
